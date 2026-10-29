@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+
+# Ambiente virtual
+venv/
+.venv/
+
+# Logs
+logs/
+
+# Dados
+data/source/*
+data/raw/*
+data/trusted/*
+data/refined/*
+
+# Mantém as pastas vazias
+!data/source/.gitkeep
+!data/raw/.gitkeep
+!data/trusted/.gitkeep
+!data/refined/.gitkeep
+
+# Variáveis de ambiente
+.env
+
+# VS Code
+.vscode/
+
+# Arquivos temporários
+*.tmp
